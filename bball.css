@@ -1,0 +1,57 @@
+#ball{
+    /* background-image: url(https://tse1.mm.bing.net/th?id=OIP.RvZ6pbcYzEs87EDOoB_xoAHaHL&pid=Api&P=0); */
+    background-repeat: no-repeat;
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    border-radius: 90%;
+    margin: auto;
+    /* margin-left: 50px; */
+    position: relative;
+    background-image: url(https://tse1.mm.bing.net/th?id=OIP.RulBikJxQWRY6JLmT9pqZAHaHc&pid=Api&P=0);
+    animation-name: ball;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    background-size: contain;
+    
+}
+@keyframes ball {
+    0%{
+        top:0px;
+    }
+    25%{
+        top: 100px;
+    }
+    50%{
+        top:200px;
+    }
+    75%{
+        top:100px;
+
+    }
+    100%{
+        top:0px
+    }
+    
+}
+#blk{
+    background-color: brown;
+    border: 1px solid black;
+    height: 100px;
+    width: 250px;
+    margin: auto;
+    margin-top: 200px;
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+    
+
+
+}
+#main{
+    border: 1px solid black;
+    height: 500px;
+    width: 70%;
+    margin: auto;
+    background-color: black;
+}

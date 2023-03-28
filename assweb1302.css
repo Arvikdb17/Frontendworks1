@@ -1,0 +1,46 @@
+table{
+    border: 1px solid black;
+    width: 100%;
+    background-color: aqua;
+}
+div{
+    border: 1px solid black;
+}
+a{
+    font-size: xx-large;
+    text-align: center;
+    text-decoration: none;
+}
+p{
+    color: whitesmoke;
+    text-align: center;
+    text-transform: capitalize;
+    word-spacing: 5px;
+    line-height: 50px;
+    text-indent: 100px;
+    letter-spacing: 5px;
+    border: 1px solid black;
+    height: 800px;
+    
+}
+#tc{
+    border: 3px solid black;
+    max-height: 300px;
+    overflow: scroll;
+}
+#er{
+    background-image: url(https://i.pinimg.com/736x/8d/49/ab/8d49abe918575193a08c97ad3db2f6fa.jpg ),url(https://tse1.mm.bing.net/th?id=OIP.TYDnabZ_jIM3XCD40x9AYQHaJ4&pid=Api&P=0);
+    background-repeat: no-repeat no-repeat;
+    background-size: contain contain;
+    background-position: left center , right center;
+    background-attachment: scroll,scroll;
+
+}
+.po{
+    border: 1px solid red;
+    display: inline-block;
+     
+     overflow: scroll; 
+     max-height: 200px;
+     max-width:400px;
+}

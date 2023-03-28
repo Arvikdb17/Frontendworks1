@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+  <fieldset> 
+    <legend></legend>
+    <form action="#" method="post">
+        <label for="user_fname">Firstname:</label>
+        <input type="text" id="user_fname" name="f_name" placeholder="Enter first name"  autofocus>
+        <br>
+        <br>
+        <label for="user_lname">Lastname:</label>
+        <input type="text" id="user_lname" name="l_name"
+        value="ronnie" disabled ><br>
+        <br> <label for="user_age">Age:</label>
+        <input type="number" id="user_age" name="u_age" >
+        <br>
+        <br>
+        <label for="user_gender">  Gender :</label>
+        <input type="radio" name="user_gender" id="user_male_gen" value="Male">Male
+        <input type="radio" name="user_gender" id="user_female_gen" value="Female">Female
+        <input type="radio" name="user_gender" id="user_other_gen" value="other">Others
+         <br>
+         <br>
+        <label for="user_email">Email:</label>
+        <input type="email" name="u_email" id="user_email">
+        <br>
+        <br>
+        <label for="user_dob">Date of Birth:</label>
+        <input type="datetime-local" name="u_dob"id="user_dob">
+        <input type="date" name="u_dob"id="user_dob">
+        <input type="datetime" name="u_dob"id="user_dob">
+        <br>
+        <br>
+        <label for="user_mobile">Mobile</label>
+        <input type="tel" name="u_mobile" id="user_mobile">
+        <br>
+        <br>
+        <label for="user_address">Address:</label><br>
+        <textarea name="u_address" id="user_address" cols="30" rows="5"></textarea>
+        <br>
+        <br>
+        <label for="user_course">Choose course:</label>
+        <select name="u_course" id="user_course">
+            <option value="null"></option>
+            <option value="html">Html</option>
+            <option value="css">Css</option>
+            <option value="js">Javascript</option>
+        </select>
+        <br>
+        <br>
+        <label for="user_qualification">Qualification</label>
+        <input type="checkbox" name="u_bsc" id="user_qualification_bsc" value="Bsc">Bsc
+        <input type="checkbox" name="U_msc" id="user_qualification_Msc" value="msc">msc
+        <input type="checkbox" name="u_phd" id="user_qualification_Phd" value="Phd">Phd
+        <input type="checkbox" name="u_others" id="user_qualification_others" value="others">Others
+        <br>
+        <br>
+        <input type="submit" name="" id="">
+        <input type="reset" name="" id="">
+    </form><br>
+</fieldset>
+
+</body>
+</html>
